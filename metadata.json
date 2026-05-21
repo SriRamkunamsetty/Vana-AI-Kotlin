@@ -1,0 +1,6 @@
+{
+  "name": "Vana AI",
+  "description": "An Offline Survival Intelligence Operating System featuring neural radar, tactical mesh, offline maps, and survival guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

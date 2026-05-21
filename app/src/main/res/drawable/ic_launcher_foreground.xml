@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Shield / Radar Outer Segment Ring -->
+    <path
+        android:strokeColor="#FF00FF88"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M 54,22 A 32,32 0 0,1 86,54 A 32,32 0 0,1 54,86 A 32,32 0 0,1 22,54 A 32,32 0 0,1 54,22" />
+
+    <!-- Innermost concentric radar feedback ring -->
+    <path
+        android:strokeColor="#3300F0FF"
+        android:strokeWidth="1.2"
+        android:pathData="M 54,34 A 20,20 0 1,0 54,74 A 20,20 0 1,0 54,34" />
+
+    <!-- Four cardinal needle indicators -->
+    <path
+        android:fillColor="#FF00F0FF"
+        android:pathData="M 54,16 L 57,25 H 51 Z" />
+    <path
+        android:fillColor="#6600FF88"
+        android:pathData="M 54,92 L 51,83 H 57 Z" />
+    <path
+        android:fillColor="#6600FF88"
+        android:pathData="M 16,54 L 25,51 V 57 Z" />
+    <path
+        android:fillColor="#6600FF88"
+        android:pathData="M 92,54 L 83,57 V 51 Z" />
+
+    <!-- High Tech Survival Compass Emerald Diamond Needle -->
+    <!-- North side (Emerald shadow) -->
+    <path
+        android:fillColor="#FF00FF88"
+        android:pathData="M 54,34 L 64,54 H 54 Z" />
+    
+    <!-- North side (Emerald light) -->
+    <path
+        android:fillColor="#8000FF88"
+        android:pathData="M 54,34 L 44,54 H 54 Z" />
+
+    <!-- South side (Cyan accent indicator shadow) -->
+    <path
+        android:fillColor="#FF00F0FF"
+        android:pathData="M 54,74 L 64,54 H 54 Z" />
+
+    <!-- South side (Cyan light) -->
+    <path
+        android:fillColor="#8000F0FF"
+        android:pathData="M 54,74 L 44,54 H 54 Z" />
+
+    <!-- Central core glowing micro ring -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M 54,51 A 3,3 0 1,0 54,57 A 3,3 0 1,0 54,51" />
+</vector>
